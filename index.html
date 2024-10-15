@@ -382,14 +382,19 @@
               </div>
             </div>
             <div class="contact-form" style="padding: 2rem 0">
-              <form>
-                <input type="text" placeholder="Name" required />
-                <input type="email" placeholder="Email" required />
-                <textarea placeholder="Message" required></textarea>
+              <form action="https://formspree.io/f/mdkooleb" method="POST">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  required
+                ></textarea>
                 <button type="submit" class="button primary">
                   <i data-lucide="send"></i> Send Message
                 </button>
               </form>
+
               <a
                 href="/Olti_Gjoni_Resume.pdf"
                 download
