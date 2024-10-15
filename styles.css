@@ -161,6 +161,7 @@ h1 {
   font-weight: 500;
   text-decoration: none;
   transition: background-color 0.3s;
+  margin: 0.2rem;
 }
 
 .button i {
@@ -291,7 +292,8 @@ h2 {
 }
 
 .badge {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   background-color: var(--hover-color);
   color: var(--primary-color);
   font-size: 0.75rem;
@@ -299,6 +301,7 @@ h2 {
   padding: 0.25rem 0.5rem;
   border-radius: 9999px;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .contact-content {
@@ -406,4 +409,45 @@ footer a:hover {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+
+[data-lucide] {
+  padding: 0.4rem; /* Adjust the padding value as needed */
+}
+
+.experience-card {
+  background-color: var(--card-bg-color);
+  border-radius: 1rem; /* More rounded corners for a modern look */
+  padding: 2rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 2px solid transparent; /* Add a border for a subtle effect */
+  margin-bottom: 1rem; /* Add spacing between cards */
+}
+
+.experience-card:hover {
+  transform: translateY(-10px) scale(1.02); /* Slightly lift and scale on hover */
+  box-shadow: 0 15px 25px -5px rgba(0, 0, 0, 0.2),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 2px solid var(--primary-color); /* Highlight border on hover */
+}
+
+.experience-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem; /* Adjust the font size for better readability */
+}
+
+.experience-card ul {
+  list-style: disc; /* Use default bullet point styling */
+  padding-left: 1.5rem; /* Add left padding to create space for bullets */
+}
+
+.experience-card ul li {
+  margin-bottom: 1rem; /* Space between list items */
+}
+
+.experience-grid {
+  padding-bottom: 2rem; /* Add spacing between sections */
 }
