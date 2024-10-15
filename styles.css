@@ -451,3 +451,11 @@ footer a:hover {
 .experience-grid {
   padding-bottom: 2rem; /* Add spacing between sections */
 }
+
+.avatar-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+}

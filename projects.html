@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Olti Gjoni - Projects</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container full-width">
+        <a href="index.html" class="logo">
+            <img src="avatar.jpg" alt="Olti Gjoni" class="avatar-icon" />
+            <span>Olti Gjoni</span>
+          </a>
+        <nav>
+          <a href="index.html#about">About</a>
+          <a href="index.html#skills">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <h2>My Projects</h2>
+          <div class="projects-grid full-width" style="display: flex; flex-direction: column; gap: 2rem;">
+            <!-- Meal Mentor Project -->
+            <div class="project-card project-detailed" style="width: 100%;">
+              <div class="project-icon">
+                <i data-lucide="bowl"></i>
+              </div>
+              <h3>Meal Mentor</h3>
+              <p>A meal-tracking iOS app with AI-driven nutritional advice built using Swift/SwiftUI and OpenAI API.</p>
+              <p>Technologies Used: Swift, SwiftUI, Python, SQLite, OpenAI API</p>
+              <p>Features:
+                <ul>
+                  <li>Daily dietary logging with a unique entry system.</li>
+                  <li>AI-driven nutritional advice and meal suggestions.</li>
+                  <li>Backend for database connectivity storing user entries for personalized insights.</li>
+                  <li>Chat interface for real-time AI interactions for dietary guidance and macro balancing.</li>
+                </ul>
+              </p>
+              <p><strong>Inspiration:</strong> Daily fitness and activity trends inspired us to hold ourselves accountable for our diet. The app allows tracking of calories, macros, and more through entries.</p>
+              <p><strong>Challenges:</strong> Integration of APIs and ensuring encryption was difficult, and the app is currently functional only locally.</p>
+              <p><strong>Future Plans:</strong> API integration improvements and adding a centralized database.</p>
+              <a href="https://devpost.com/software/meal-mentor-xt6y5b" target="_blank" class="button secondary">View on Devpost</a>
+              <span class="badge">iOS Development</span>
+            </div>
+
+            <!-- Target Shooting Game Project -->
+            <div class="project-card project-detailed" style="width: 100%;">
+              <div class="project-icon">
+                <i data-lucide="target"></i>
+              </div>
+              <h3>Target Shooting Game</h3>
+              <p>A shooting game with accelerating targets and real-time HP tracking developed in JavaScript using p5.js.</p>
+              <p>Technologies Used: JavaScript, p5.js</p>
+              <p>Features:
+                <ul>
+                  <li>Accelerating targets and responsive controls.</li>
+                  <li>Real-time HP tracking and boundary logic.</li>
+                  <li>Player feedback with vibrant visual effects and dynamic scoring system.</li>
+                </ul>
+              </p>
+              <a href="https://editor.p5js.org/oltig7164@hstat.org/sketches/lFSkttVju" target="_blank" class="button secondary">View Project</a>
+              <span class="badge">Game Development</span>
+            </div>
+
+            <!-- TRON-FundYou Project -->
+            <div class="project-card project-detailed" style="width: 100%;">
+              <div class="project-icon">
+                <i data-lucide="network"></i>
+              </div>
+              <h3>TRON-FundYou</h3>
+              <p>A decentralized investment platform linking investors and creators without intermediaries on the TRON blockchain. Developed during TRON Builder Tour NYC, it provides secure and verifiable transactions using smart contracts.</p>
+              <p>Technologies Used: TRON Blockchain, Smart Contracts, JavaScript, HTML/CSS, React</p>
+              <p>Features:
+                <ul>
+                  <li>Decentralized connection between investors and project creators.</li>
+                  <li>Smart contracts for secure and verifiable transactions.</li>
+                  <li>React UI for live TRON (TRX, USDT) price updates and wallet authentication using TRONLink.</li>
+                  <li>Successful project funding of ~10,000 TRX during the hackathon.</li>
+                </ul>
+              </p>
+              <a href="https://x.com/trondao/status/1842728806949200317" target="_blank" class="button secondary">View on Twitter</a>
+              <a href="https://forum.trondao.org/t/tronfundyou-fund-me-fund-you/27715" target="_blank" class="button secondary">View on Forum</a>
+              <a href="https://www.canva.com/design/DAGSumWTZ7Q/GnSbhRAcN0w7utMaUpwDNA/edit?utm_content=DAGSumWTZ7Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="button secondary">View Design on Canva</a>
+              <span class="badge">Blockchain Development</span>
+            </div>
+
+            <!-- HackCUNY AcademiX Project -->
+            <div class="project-card project-detailed" style="width: 100%;">
+              <div class="project-icon">
+                <i data-lucide="award"></i>
+              </div>
+              <h3>AcademiX - HackCUNY</h3>
+              <p>An iOS app supporting ESL learning through AI-powered language assistance. Developed using Swift, OpenAI API, and supporting multiple languages.</p>
+              <p>Technologies Used: Swift, OpenAI API, FastAPI, PostgreSQL</p>
+              <p>Features:
+                <ul>
+                  <li>AI-powered real-time language assistance supporting 5+ languages.</li>
+                  <li>Backend developed using FastAPI, integrated into the app for seamless functionality.</li>
+                  <li>Interactive course pages, dynamic calendar, and multilingual AI chatbot for support.</li>
+                </ul>
+              </p>
+              <p><strong>Inspiration:</strong> To create an intuitive platform that aids ESL students in overcoming challenges with coursework, scheduling, and learning assistance.</p>
+              <p><strong>Challenges Faced:</strong> Balancing advanced technology with simplicity and ensuring AI chatbot accuracy required meticulous efforts.</p>
+              <p><strong>Future Plans:</strong> Expanding language support globally and introducing collaborative learning spaces for group activities.</p>
+              <a href="https://devpost.com/software/academix-8nkwfh" target="_blank" class="button secondary">View on Devpost</a>
+              <span class="badge">AI & iOS Development</span>
+            </div>
+
+            <!-- Simple HTML/CSS Zoo Website -->
+            <div class="project-card project-detailed" style="width: 100%;">
+              <div class="project-icon">
+                <i data-lucide="globe"></i>
+              </div>
+              <h3>Simple Zoo Website</h3>
+              <p>A simple, informative website built with HTML and CSS featuring various animals in a zoo setting.</p>
+              <p>Technologies Used: HTML, CSS</p>
+              <a href="https://olti2803.github.io/zoo-website/" target="_blank" class="button secondary">View Project</a>
+              <span class="badge">Web Development</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <p>
+            <i data-lucide="coffee"></i>
+            Built with passion by Olti Gjoni. Hosted on
+            <a href="https://vercel.com" target="_blank" rel="noreferrer">Vercel</a>.
+          </p>
+          <p>&copy; 2023 Olti Gjoni. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      lucide.createIcons();
+
+
+      const body = document.body;
+
+    </script>
+  </body>
+</html>
